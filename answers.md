@@ -18,6 +18,12 @@ variable = 'variable'
  2.7.0 :028 > car1[:color]
  => "red" 
 
+23:52 $ irb
+2.7.0 :001 > load './cars/car.rb'
+ => true 
+2.7.0 :002 > car=Car.new
+2.7.0 :003 > car.paint
+ => "Red" 
 
 
 
